@@ -1,0 +1,10 @@
+android_app {
+    name: "StatixColorStub",
+    manifest: "AndroidManifest.xml",
+
+    resource_dirs: ["res"],
+
+    certificate: "platform",
+    product_specific: true,
+    sdk_version: "current",
+}
