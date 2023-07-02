@@ -4,13 +4,13 @@
 //
 
 package {
-    default_applicable_licenses: ["packages_apps_Statix_ColorStub_license"],
+    default_applicable_licenses: ["packages_apps_Rising_ColorStub_license"],
 }
 
 // Added automatically by a large-scale-change
 // See: http://go/android-license-faq
 license {
-    name: "packages_apps_Statix_ColorStub_license",
+    name: "packages_apps_Rising_ColorStub_license",
     visibility: [":__subpackages__"],
     license_kinds: [
         "SPDX-license-identifier-Apache-2.0",
@@ -21,7 +21,7 @@ license {
 }
 
 android_app {
-    name: "StatixColorStub",
+    name: "RisingColorStub",
     manifest: "AndroidManifest.xml",
 
     resource_dirs: ["res"],
